@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "index.js": {
+      "runtime": "@vercel/node@2"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
