@@ -1,0 +1,106 @@
+{
+  "name": "Hanz Api's",
+  "version": "1.0.0",
+  "description": "Simple and Easy-to-Use API Documentation",
+  "header": {
+    "status": "Online!",
+    "imageSrc": [
+      "https://cdn.yupra.my.id/yp/j2y8ou6r.mp4"
+    ],
+    "imageSize": {
+      "mobile": "80%",
+      "tablet": "40%",
+      "desktop": "40%"
+    }
+  },
+  "apiSettings": {
+    "creator": "Hanz"
+  },
+  "links": [
+    {
+      "name": "Support Me",
+      "url": "https://saweria.co/hanzreally"
+    },
+    {
+      "name": "Contact Me",
+      "url": "mailto:hanzzcodee@gmail.com"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Search",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q="
+        },
+        {
+          "name": "TikTok",
+          "desc": "TikTok video search",
+          "path": "/search/tiktok?q="
+        },
+        {
+          "name": "Pinterest",
+          "desc": "Pinterest image search",
+          "path": "/search/pinterest?q="
+        }
+      ]
+    },
+    {
+      "name": "Download",
+      "items": [
+        {
+          "name": "Facebook",
+          "desc": "Download Facebook video",
+          "path": "/download/facebook?url="
+        },
+        {
+          "name": "Instagram",
+          "desc": "Download Instagram media",
+          "path": "/download/instagram?url="
+        },
+        {
+          "name": "TikTok",
+          "desc": "Download TikTok video",
+          "path": "/download/tiktok?url="
+        },
+        {
+          "name": "Spotify",
+          "desc": "Download Spotify music",
+          "path": "/download/spotify?url="
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        {
+          "name": "Short URL",
+          "desc": "Shorten long URL using TinyURL",
+          "path": "/tools/shorturl?url="
+        }
+      ]
+    },
+    {
+      "name": "Canvas",
+      "items": [
+        {
+          "name": "BRAT Generator",
+          "desc": "Generate BRAT style image with text",
+          "path": "/canvas/brat?text="
+        }
+      ]
+    },
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba"
+        }
+      ]
+    }
+  ]
+}
